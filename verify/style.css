@@ -1,0 +1,143 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+  background-color: #1e3b8a1f;
+}
+
+.form-sec{
+  background-color: #1e3b8a1f;
+}
+.form-cont{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 8em;
+background-color: #1e3b8a1f;
+}
+
+.otp-Form {
+  display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+     width: 500px;
+    height: 400px;
+ background: white;
+ 
+  padding: 20px 30px;
+  gap: 20px;
+  position: relative;
+   border: 1px solid #4f350346;
+    box-shadow: 5px 5px 15px -1px rgba(0,0,0,0.75);
+  border-radius: 15px;
+}
+
+.mainHeading {
+  font-size: 30px;
+   color: #2D3E71;
+  font-weight: 700;
+  font-family: "Montserrat", sans-serif;
+}
+
+.otpSubheading {
+  font-size: 14px;
+  color: black;
+  line-height: 17px;
+  text-align: center;
+  font-family: "Montserrat", sans-serif;
+}
+
+.inputContainer {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  align-items: center;
+  justify-content: center;
+}
+
+.otp-input {
+  background-color: rgb(228, 228, 228);
+  width: 40px;
+  height: 40px;
+  text-align: center;
+  border: none;
+  border-radius: 7px;
+  caret-color: #2D3E71;
+  color: rgb(44, 44, 44);
+  outline: none;
+  font-weight: 600;
+  font-family: "Montserrat", sans-serif;
+}
+
+.otp-input:focus,
+.otp-input:valid {
+  background-color:#2d3e712d;
+  transition-duration: .3s;
+}
+
+.verifyButton {
+  width: 300px;
+  height: 40px;
+  background-color: #F0A818;
+      color: #fff;
+      border: none;
+  font-weight: 600;
+  cursor: pointer;
+  border-radius: 10px;
+  transition-duration: .2s;
+  font-family: "Montserrat", sans-serif;
+}
+
+.verifyButton:hover {
+   background-color: #F0A818;
+      color: #fff;
+      border: none;
+  transition-duration: .2s;
+}
+
+.verifyButton a{
+  text-decoration: none;
+  color: #fff;
+}
+
+.exitBtn {
+  position: absolute;
+  top: 5px;
+  right: 5px;
+  box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.171);
+  background-color: rgb(255, 255, 255);
+  border-radius: 50%;
+  width: 25px;
+  height: 25px;
+  border: none;
+  color: black;
+  font-size: 1.1em;
+  cursor: pointer;
+}
+
+.resendNote {
+  font-size: 0.7em;
+  color: black;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 5px;
+  font-family: "Montserrat", sans-serif;
+}
+
+.resendBtn {
+  background-color: transparent;
+  border: none;
+  color: #2D3E71;
+  cursor: pointer;
+  font-size: 1.1em;
+  font-weight: 700;
+  font-family: "Montserrat", sans-serif;
+}

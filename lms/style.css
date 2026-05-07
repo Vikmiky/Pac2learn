@@ -1,0 +1,378 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.login-cont{
+    padding: 8em;
+    background-color: #1e3b8a1f;
+}
+
+.login-box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.login-de{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 3em;
+    background-color: white transparent;
+    width: 720px;
+    height: 700px;
+    border-radius: 20px;
+    border: 1px solid #4f350346;
+    box-shadow: 5px 5px 15px -1px rgba(0,0,0,0.75);
+    
+}
+
+.prac{
+    display: flex;
+    gap: 2px;
+    margin-top: -10px;
+    
+}
+
+.prac svg{
+    width: 50px;
+}
+
+.prac h2{
+    margin-top: 35px;
+    color: #2D3E71;
+    font-weight: 600;
+    font-family: "Montserrat", sans-serif;
+  font-size: 30px;
+  font-style: normal;
+}
+
+.prac-wel h2{
+    margin-top: -15px;
+    font-size: 32px;
+    margin-bottom: 10px;
+    font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 600;
+  font-style: normal;
+}
+.prac-wel p{
+    font-family: "Montserrat", sans-serif;
+  font-style: normal;
+}
+
+.prac-email{
+    padding-top: 2.6em;
+}
+.prac-email p{
+    font-family: "Montserrat", sans-serif;
+  font-size: 14px;
+  font-style: normal;
+}
+.prac1 input{
+  margin-top: 10px;
+  padding-left: 5px;
+  width: 300px;
+  height: 38px;
+  outline: none;
+  cursor: pointer;
+  border-radius: 5px;
+  border-color: none;
+  border: 1px solid rgba(0, 0, 0, 0.077);
+  background-color: #2d3e7123;
+}
+.prac2{
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+}
+.prac2 p{
+    font-family: "Montserrat", sans-serif;
+  font-size: 14px;
+ 
+  font-style: normal;
+}
+.prac2 input{
+    margin-top: 10px;
+
+   padding-left: 5px;
+  width: 300px;
+  height: 38px;
+  outline: none;
+  cursor: pointer;
+  border-radius: 5px;
+  border-color: none;
+  border: 1px solid rgba(0, 0, 0, 0.077);
+  background-color: #2d3e7123;
+}
+.prac-action{
+    display: flex;
+    gap: 6em;
+    margin-top: 25px;
+    font-family: "Montserrat", sans-serif;
+ font-size: 12px;
+
+  font-style: normal;
+}
+.prac-action input{
+    outline: none;
+    border: 0px;
+    padding: 20px;
+    margin-top: px;
+   
+}
+.prac-action label{
+  outline: none;
+    border: 0px;
+    
+}
+
+.checkbox-wrapper-46 input[type="checkbox"] {
+  display: none;
+  visibility: hidden;
+}
+
+.checkbox-wrapper-46 .cbx {
+  margin: auto;
+  -webkit-user-select: none;
+  user-select: none;
+  cursor: pointer;
+}
+.checkbox-wrapper-46 .cbx span {
+  display: inline-block;
+  vertical-align: middle;
+  transform: translate3d(0, 0, 0);
+}
+.checkbox-wrapper-46 .cbx span:first-child {
+  position: relative;
+  width: 18px;
+  height: 18px;
+  border-radius: 3px;
+  transform: scale(1);
+  vertical-align: middle;
+  border: 1px solid #9098a9;
+  transition: all 0.2s ease;
+}
+.checkbox-wrapper-46 .cbx span:first-child svg {
+  position: absolute;
+  top: 3px;
+  left: 2px;
+  fill: none;
+  stroke: #ffffff;
+  stroke-width: 2;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  stroke-dasharray: 16px;
+  stroke-dashoffset: 16px;
+  transition: all 0.3s ease;
+  transition-delay: 0.1s;
+  transform: translate3d(0, 0, 0);
+}
+.checkbox-wrapper-46 .cbx span:first-child:before {
+  content: "";
+  width: 100%;
+  height: 100%;
+  background: #F0A818;
+  display: block;
+  transform: scale(0);
+  opacity: 1;
+  border-radius: 50%;
+}
+.checkbox-wrapper-46 .cbx span:last-child {
+  padding-left: 8px;
+}
+.checkbox-wrapper-46 .cbx:hover span:first-child {
+  border-color: black;
+}
+
+.checkbox-wrapper-46 .inp-cbx:checked + .cbx span:first-child {
+  background: #F0A818;
+  border-color: #F0A818;
+  animation: wave-46 0.4s ease;
+}
+.checkbox-wrapper-46 .inp-cbx:checked + .cbx span:first-child svg {
+  stroke-dashoffset: 0;
+}
+.checkbox-wrapper-46 .inp-cbx:checked + .cbx span:first-child:before {
+  transform: scale(3.5);
+  opacity: 0;
+  transition: all 0.6s ease;
+}
+
+@keyframes wave-46 {
+  50% {
+    transform: scale(0.9);
+  }
+}
+.prac-action a{
+    text-decoration: none;
+}
+
+
+.input-wrap {
+      position: relative ;
+      display: flex;
+      align-items: center;
+    }
+
+    #eyeOpen{
+        width: 20px
+    }
+    #eyeClosed{
+        width: 20px
+    }
+
+    
+    .eye-btn {
+      position: absolute;
+      width: 25px;
+      right: 42rem;
+      top: 30.5rem;
+
+      background: none;
+      border: 0px solid;
+      cursor: pointer;
+      padding: 4px;
+      color: #777;
+    }
+
+    .eye-btn:hover {
+      color: #333;
+    }
+
+    .submit{
+       margin-top: 3rem;
+    }
+
+    .submit button {
+      width: 300px;
+      
+      padding: 11px;
+      font-size: 15px;
+      background-color: #F0A818;
+      color: #fff;
+      border: none;
+      border-radius: 8px;
+      cursor: pointer;
+      margin-top: 0.5rem;
+    }
+    .submit button a{
+        text-decoration: none;
+        color: white;
+        font-family: "Montserrat", sans-serif;
+  font-size: 12px;
+  font-style: normal;
+    }
+
+    .prac-con{
+        display: flex;
+        padding-top: 2em;
+        justify-content: center;
+        gap: 20px;
+        font-family: "Montserrat", sans-serif;
+  font-size: 14px;
+  font-style: normal;
+    }
+    .prac-con hr{
+        width: 65px;
+        height: 0px;
+        margin-top: 9px;
+        
+    }
+    .prac-social{
+        display: flex;
+        gap: 19px;
+        justify-content: center;
+        padding-top: 1em;
+    }
+
+    .prac-social svg{
+        width: 24px;
+        cursor: pointer;
+    }
+    .prac-s{
+        display: flex;
+        justify-content: center;
+    gap: 37px;
+    margin-top: 15px;
+    font-family: "Montserrat", sans-serif;
+  font-size: 11px;
+  font-style: normal;
+    }
+    .prac-s a{
+        text-decoration: none;
+    }
+
+    @media (max-width: 1024px) {
+     .prac1 input{
+      width: 250px;
+     
+     }
+
+  
+     .prac2 input{
+      width: 250px;
+     }
+     
+     .lg-text{
+      padding: 2.5em;
+     }
+     .login-de{
+      gap: 0em;
+     }
+    }
+ 
+   
+    @media (max-width: 768px) {
+  .login-de {
+    flex-direction: column;        
+    padding: 20px 10px;
+    gap: 0;
+    width: 370px;
+    height: 730px;
+  }
+ 
+  .lg-img {
+    display: none;                 
+  }
+ 
+  .lg-text {
+    width: 100%;
+
+  }
+
+  .prac-action label{
+   width: 20px;
+   
+  }
+ .prac-action span{
+  padding: 0.5em;
+
+ }
+  .prac-s{
+    margin-bottom: 30px;
+  }
+  .prac h2 {
+    font-size: 18px;
+  }
+}
+ 
+@media (max-width: 480px) {
+  .login-cont {
+    padding: 12px;
+  }
+  .login-de {
+    padding: 24px 16px;
+  }
+  .prac2 h2 {
+    font-size: 18px;
+  }
+  .prac h2 {
+    font-size: 16px;
+  }
+}
+   
+
+    
